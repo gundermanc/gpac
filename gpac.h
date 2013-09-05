@@ -32,7 +32,6 @@ typedef struct tagGPACFileHeader {
   char fileType[15];
   char name[25];
   char description[45];
-  int numEntries;
 }GPACHeader;
 
 typedef struct tagGPACFileEntry {
